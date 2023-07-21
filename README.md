@@ -8,3 +8,6 @@ go mod init main
 # build
 go build main.go
 
+# use
+go run . --hello {str}
+go run . --math {int <= 10}
